@@ -1,0 +1,41 @@
+{
+  "name": "yanyezhiting",
+  "version": "1.0.1",
+  "description": "new start",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlangchan/yanyezhiting.git"
+  },
+  "author": "unlangchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlangchan/yanyezhiting/issues"
+  },
+  "homepage": "https://github.com/unlangchan/yanyezhiting#readme",
+  "devDependencies": {
+    "expose-loader": "^0.7.4",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.2.0",
+    "gulp-header": "^1.8.9",
+    "gulp-inject": "^4.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-md5-assets": "^1.0.1",
+    "gulp-open": "^2.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^2.2.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "uglify-save-license": "^0.4.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.9.4"
+  }
+}
