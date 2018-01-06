@@ -78,7 +78,7 @@ gulp.task('inject', ['inject:js']);
 //本地服务器配置
 
 let host = {
-    path: ['dist'],
+    path: ['dist','./'],
     port: 3000,
     index: 'index.html'
 };

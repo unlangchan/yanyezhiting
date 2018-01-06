@@ -5,3 +5,4 @@ declare interface Window {
     p2: typeof p2;
     Phaser: typeof Phaser;
 }
+declare module "*.txt";

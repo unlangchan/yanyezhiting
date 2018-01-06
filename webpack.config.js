@@ -39,6 +39,10 @@ module.exports = {
             {
                 test: /p2\.js/,
                 use: ['expose-loader?p2']
+            },
+            {
+                test: /\.txt$/,
+                use: 'raw-loader'
             }
         ]
     },
